@@ -2,6 +2,7 @@
 
 #run mininet with ordered mac addresses with ovs switches running OF14 with onos cluster 
 #use as follows: mn_onos <name of onos 1 container> ... <name of onos n container> --topo <topology>
+#example: mn_onos
 
 ctrlPort=6633
 comd="sudo mn --mac --switch=ovs,protocols=OpenFlow14 "
